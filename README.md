@@ -8,7 +8,6 @@ Gultie Code is a full-stack learning platform that enables users to explore vari
 
 ## 📖 Table of Contents
 
-* [Features](#-features)
 * [Tech Stack](#-tech-stack)
 * [Architecture](#-architecture)
 * [Project Structure](#-project-structure)
@@ -21,60 +20,6 @@ Gultie Code is a full-stack learning platform that enables users to explore vari
 * [Database Migration](#-database-migration)
 * [API Documentation](#-api-documentation)
 * [Future Enhancements](#-future-enhancements)
-
----
-
-# ✨ Features
-
-## Authentication
-
-* User Registration
-* User Login
-* JWT Authentication
-* Role-Based Authorization
-* Admin Approval System
-
----
-
-## Dashboard
-
-* Personalized Dashboard
-* Latest Blogs
-* Learning Domains
-
----
-
-## Blogs
-
-* Create Blog
-* Update Blog
-* Delete Blog
-* Admin Moderation
-
----
-
-## Learning
-
-* Learning Domains
-* Domain Levels
-* Personalized Learning Plans
-* Progress Tracking
-
----
-
-## AI Integration
-
-* Personalized Roadmap Generation
-* Domain-specific Study Plans
-* Checkpoints & Milestones
-
----
-
-## Responsive UI
-
-* Light Theme
-* Dark Theme
-* Modern Component-Based Architecture
 
 ---
 
@@ -160,7 +105,7 @@ Gultie Code
 
 ## Dashboard
 
-> ![Dashboard](assets/dashboard.png)
+> ![Dashboard](gultie-code/src/assets/dashboard.png)
 
 ```
 assets/dashboard.png
@@ -170,7 +115,7 @@ assets/dashboard.png
 
 ## Learning Page
 
-> ![Learning Page](assets/learning.png)
+> ![Learning Page](gultie-code/src/assets/learning.png)
 
 ```
 assets/learning.png
@@ -180,7 +125,7 @@ assets/learning.png
 
 ## Blog Module
 
-> ![Blogs](assets/blogs.png)
+> ![Blogs](gultie-code/src/assets/blogs.png)
 
 ```
 assets/blogs.png
@@ -190,7 +135,7 @@ assets/blogs.png
 
 ## Admin Panel
 
-> ![Admin Panel](assets/admin-panel.png)
+> ![Admin Panel](gultie-code/src/assets/admin-panel.png)
 
 ```
 assets/admin-panel.png
