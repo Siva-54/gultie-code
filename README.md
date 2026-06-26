@@ -107,19 +107,11 @@ Gultie Code
 
 > ![Dashboard](gultie-code/src/assets/dashboard.png)
 
-```
-assets/dashboard.png
-```
-
 ---
 
 ## Learning Page
 
 > ![Learning Page](gultie-code/src/assets/learning.png)
-
-```
-assets/learning.png
-```
 
 ---
 
@@ -127,19 +119,11 @@ assets/learning.png
 
 > ![Blogs](gultie-code/src/assets/blogs.png)
 
-```
-assets/blogs.png
-```
-
 ---
 
 ## Admin Panel
 
 > ![Admin Panel](gultie-code/src/assets/admin-panel.png)
-
-```
-assets/admin-panel.png
-```
 
 ---
 
