@@ -141,7 +141,7 @@ Gultie Code
 ### Clone Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Siva-54/gultie-code.git
 
 cd "Gultie Code"
 ```
