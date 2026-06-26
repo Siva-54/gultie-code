@@ -1,0 +1,38 @@
+# Environment Variables
+.env
+
+# Virtual Environment
+.myenv/
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Build
+build/
+dist/
+
+# Logs
+*.log
+
+# Pytest
+.pytest_cache/
+
+# VS Code
+.vscode/
+
+# JetBrains
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Alembic cache
+alembic/__pycache__/
+
+# Docker
+docker-compose.override.yml

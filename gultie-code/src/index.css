@@ -1,0 +1,112 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --bg-primary: #FAFAF9;
+  --bg-surface: #FFFFFF;
+  --bg-muted: #F3F4F6;
+
+  --text-primary: #1A1A1A;
+  --text-secondary: #6B7280;
+
+  --accent-primary: #7C3AED;
+  --accent-primary-hover: #6D28D9;
+
+  --accent-secondary: #10B981;
+  --accent-secondary-hover: #059669;
+
+  --danger: #DC2626;
+  --danger-hover: #B91C1C;
+
+  --border-color: #E5E7EB;
+}
+
+.dark {
+  --bg-primary: #0F1115;
+  --bg-surface: #27272A;
+  --bg-muted: #3A3A3F;
+
+  --text-primary: #E8E6E3;
+  --text-secondary: #A1A1AA;
+
+  --accent-primary: #8B5CF6;
+  --accent-primary-hover: #A78BFA;
+
+  --accent-secondary: #34D399;
+  --accent-secondary-hover: #6EE7B7;
+
+  --danger: #EF4444;
+  --danger-hover: #F87171;
+
+  --border-color: #3A3A3F;
+}
+
+@layer utilities {
+
+  .bg-app {
+    background-color: var(--bg-primary);
+  }
+
+  .bg-surface {
+    background-color: var(--bg-surface);
+  }
+
+  .bg-muted {
+    background-color: var(--bg-muted);
+  }
+
+  .text-app {
+    color: var(--text-primary);
+  }
+
+  .text-muted {
+    color: var(--text-secondary);
+  }
+
+  .border-app {
+    border-color: var(--border-color);
+  }
+
+  .bg-primary {
+    background-color: var(--accent-primary);
+  }
+
+  .hover\:bg-primary-hover:hover {
+    background-color: var(--accent-primary-hover);
+  }
+
+  .text-primary {
+    color: var(--accent-primary);
+  }
+
+  .bg-success {
+    background-color: var(--accent-secondary);
+  }
+
+  .hover\:bg-success-hover:hover {
+    background-color: var(--accent-secondary-hover);
+  }
+
+  .text-success {
+    color: var(--accent-secondary);
+  }
+
+  .bg-danger {
+    background-color: var(--danger);
+  }
+
+  .hover\:bg-danger-hover:hover {
+    background-color: var(--danger-hover);
+  }
+
+  .text-danger {
+    color: var(--danger);
+  }
+}
+
+body{
+    font-family:
+        "Plus Jakarta Sans",
+        sans-serif;
+}
